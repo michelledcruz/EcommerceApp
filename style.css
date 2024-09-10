@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    color: chocolate;
+}
+header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    padding: 0 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcfcfc;
+    overflow-x: hidden;
+}
+.container{
+    width: 1280px;
+    margin: auto;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type="text"] {
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: unset;
+    width: 300px;
+}
+.search_btn button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    border: unset;
+    color: #ffffff;
+    background-color: rgb(238, 107, 14);;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    margin-top: 50px;
+}
+@media (max-width: 768px) {
+    .list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+.shopping i{
+    color: #028775;
+    font-size: 38px;
+    right: 30px;
+    position: relative;
+}
+span.quantity{
+    background-color: #e23549;
+    padding: 5px;
+    border-radius: 50px;
+    top: 3%;
+    right: 0;
+    width: 34px;
+    text-align: center;
+    color:#ffffff;
+    position: absolute;
+}
+.card{
+    position: fixed;
+    right: -400px;
+    top:0;
+    padding: 20px;
+    width: 400px;
+    height:100vh;
+    background-color: #000000;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.card h1{
+    color: #e23549;
+}
+
+.card.active{
+    transform: translateX(-400px);
+}
+
+.card-list img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    text-align: center;
+}
+.close {
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+    border-radius: 13px;
+}
+.total {
+    margin-bottom: 20px;
+    background-color: #ffeecb;
+    border-radius: 11px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button.add_to_cart {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: inherit;
+    padding: 10px 20px;
+    border-radius: 11px;
+}
+ul.listCard {
+    list-style-type: none;
+    padding: 0;
+}
+.list-item{
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+    justify-content: space-around;
+}
+p.price {
+    color: coral;
+    font-weight: 600;
+}
