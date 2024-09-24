@@ -33,3 +33,5 @@ You can use any public API that provides product information, such as:
 
 Fake Store API: https://fakestoreapi.com/products/1
 
+View Project on CodePen: https://codepen.io/Michelle-Dcruz/pen/yLdZwmJ
+
