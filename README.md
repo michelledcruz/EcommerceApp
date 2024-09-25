@@ -2,6 +2,8 @@
 Overview
 This project is a simple E-commerce App built using HTML, CSS, and JavaScript (ES6). The app allows users to browse products, add and remove items from their shopping cart, and manage their cart using local storage. It uses a free API to fetch e-commerce products and implements core features like a dynamic shopping cart system.
 
+#LIVE URL: https://ecommmich.netlify.app/
+
 # Features
 Responsive Design: The app is fully responsive and works well on both desktop and mobile devices.
 Product Listing: Fetches and displays a list of products from a free e-commerce products API.
