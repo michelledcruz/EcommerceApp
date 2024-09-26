@@ -8,7 +8,6 @@ header {
     position: sticky;
     top: 0px;
     width: 100%;
-    padding: 0 10px;
     background-color: black;
     border-radius: 10px;
 }
@@ -67,7 +66,7 @@ input[type="text"] {
     .shopping i{
         font-size: 38px;
         top: -65px;
-        right: 5px;
+        right: 0px;
         position: relative;
     }
 }
