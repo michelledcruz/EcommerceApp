@@ -43,6 +43,12 @@ input[type="text"] {
     color: #ffffff;
     background-color: rgb(238, 107, 14);;
 }
+.shopping i{
+    color: #028775;
+    font-size: 38px;
+    right: 30px;
+    position: relative;
+}
 .list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -54,13 +60,18 @@ input[type="text"] {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
+    .header-section {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .shopping i{
+        font-size: 38px;
+        top: -65px;
+        right: 5px;
+        position: relative;
+    }
 }
-.shopping i{
-    color: #028775;
-    font-size: 38px;
-    right: 30px;
-    position: relative;
-}
+
 span.quantity{
     background-color: #e23549;
     padding: 5px;
